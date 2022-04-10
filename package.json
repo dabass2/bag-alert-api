@@ -1,0 +1,24 @@
+{
+  "name": "bag-alert-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Restful API for determining if there is a currently active Major Bag Alert.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-node",
+    "transform": {}
+  },
+  "author": "Daniel Bass",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}
