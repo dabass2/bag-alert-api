@@ -2,8 +2,8 @@ import app from "../lib/app"
 import convert_to_alerts from "../lib/helpers"
 import supertest from "supertest"
 
-test("GET /alert", async () => {
-  await supertest(app).get("/alert")
+test("GET /", async () => {
+  await supertest(app).get("/")
     .expect(200)
     .then((res) => {
       expect(res.body.active_alert).toBeDefined()
