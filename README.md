@@ -1,8 +1,8 @@
 # Major Bag Alert API
 
-The `Major Bag Alert` API is a low overhead, cross platform, RESTful API (Application Programming Interface) built on the powerful [Express](https://expressjs.com/) framework and [Node.js](https://nodejs.org/en/) while utilizing industry-defining Neural Network techniques.
+The `Major Bag Alert` API is a low overhead, cross platform, RESTful API (Application Programming Interface) built on the powerful [Express](https://expressjs.com/) framework and [Node.js](https://nodejs.org/en/) utilizing industry-defining Neural Network techniques.
 
-`Major Bag Alert`, at its core, is an API that can be used to determine if any given moment in time is considered a "Major Bag Alert", as defined in the hit song *Major Bag Alert* by DJ Khaled featuring Migos.
+`Major Bag Alert`, at its core, is an API that can be used to determine if any given moment in time is considered a "Major Bag Alert", as defined in the hit song [*Major Bag Alert*](https://www.youtube.com/watch?v=sAJ_n8iVn6E) by DJ Khaled featuring (the) Migos.
 
 ## Usage
 Since the `Major Bag Alert` API is a RESTful API, it can be accessed with a simple `GET` request. An example would be
