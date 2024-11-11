@@ -3,3 +3,4 @@ super_secret_key.key
 *.c
 ssn.txt
 *.cpp
+node_modules
